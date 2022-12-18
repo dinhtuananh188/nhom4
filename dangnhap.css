@@ -1,0 +1,145 @@
+body{
+    background-color : black;
+}
+#menu
+{
+    
+ width: 100%;
+ border: 1px solid #000;
+ height: 70px;
+ background-color: #363636;
+ font-family: 'Alexandria',sans-serif ;
+ font-size: 19px;
+ font-style: bold;
+
+}
+#menu ul
+{
+    
+  margin-top:  22px;
+}
+#menu ul li
+{
+    float: left;
+vertical-align:middle;
+  list-style-type: none;
+  display: inline;
+  margin-left: 0px;
+  vertical-align: baseline;
+}
+#menu ul li a:link 
+{
+   color: #FFF;
+   text-decoration: none;
+
+   padding-top: 24px;
+   padding-bottom: 23px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#menu ul li a:visited
+{
+   color: rgb(168, 167, 167);
+   text-decoration: none;
+
+}
+              
+#menu ul li a:hover
+{
+    color: rgb(255, 255, 255);
+}
+#menu ul li a img{
+    vertical-align:middle
+}
+#menu ul #menu-right li {
+    float: right;
+    text-align:middle;
+    font-size: 13px;
+    padding-right: 25px;
+}
+.container{
+    width: 100%;
+    height: 650px;
+    background-color: black;}
+    
+#post {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 45%;
+    height: 500px;
+    float: left;
+ }
+#post p{
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 30px;
+    font-style: bold;
+    color:#FFF;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+#sidebar {
+    padding-top: 24px;
+    width: 45%;
+    height: 500px;
+    float: right;
+    
+   }
+#noidung
+{
+    width: 85%;
+    height: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+#noidung p{
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 28px;
+    text-align: center;
+    font-style: bold;
+    color:#FFF;
+}
+#form{
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 18px;
+    text-align: left;
+    color:#FFF;
+    padding-left: 20px;
+    font-style:normal;
+}
+#form input{
+    width: 80%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #FFF;
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 12px;
+}
+#form input::placeholder{
+    color: #FFF;
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 12px;
+}
+#form input:focus {
+    background-color: rgb(102, 182, 167);
+  }
+#form input[type=submit]{
+    width: 30%;
+    height: 30px;
+    padding-left: 5px;
+}
+#form input[type=submit]:hover{
+    background-color: rgb(102, 134, 182);
+}
+#form input[type=button]{
+    width: 45%;
+    height: 30px;
+    padding-left: 5px;
+}
+#form input[type=button]:hover{
+    background-color: rgb(147, 182, 102);
+}

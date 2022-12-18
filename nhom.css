@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+#menu
+{
+    
+ width: 100%;
+ border: 1px solid #000;
+ height: 70px;
+ background-color: #363636;
+ font-family: 'Alexandria',sans-serif ;
+ font-size: 19px;
+ font-style: bold;
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+}
+#menu ul
+{
+    
+  margin-top:  22px;
+}
+#menu ul li
+{
+    float: left;
+vertical-align:middle;
+  list-style-type: none;
+  display: inline;
+  margin-left: 0px;
+  vertical-align: baseline;
+}
+#menu ul li a:link 
+{
+   color: #FFF;
+   text-decoration: none;
+
+   padding-top: 24px;
+   padding-bottom: 23px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#menu ul li a:visited
+{
+   color: rgb(168, 167, 167);
+   text-decoration: none;
+
+}
+              
+#menu ul li a:hover
+{
+    color: rgb(255, 255, 255);
+}
+#menu ul li a img{
+    vertical-align:middle
+}
+#menu ul #menu-right li {
+    float: right;
+    text-align:middle;
+    font-size: 13px;
+    padding-right: 25px;
+}

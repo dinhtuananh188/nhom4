@@ -1,0 +1,220 @@
+body{
+    background-color : black;
+}
+#menu
+{
+    
+ width: 100%;
+ border: 1px solid #000;
+ height: 70px;
+ background-color: #363636;
+ font-family: 'Alexandria',sans-serif ;
+ font-size: 19px;
+ font-style: bold;
+
+}
+#menu ul
+{
+  margin-top:  20px;
+}
+#menu ul li
+{
+    float: left;
+vertical-align:middle;
+  list-style-type: none;
+  display: inline;
+  margin-left: 0px;
+  vertical-align: baseline;
+}
+#menu ul li a:link 
+{
+   color: #FFF;
+   text-decoration: none;
+
+   padding-top: 24px;
+   padding-bottom: 23px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#menu ul li a:visited
+{
+   color: rgb(168, 167, 167);
+   text-decoration: none;
+
+}
+              
+#menu ul li a:hover
+{
+    color: rgb(255, 255, 255);
+}
+#menu ul li a img{
+    vertical-align:middle
+}
+#menu-right{
+    width: 40%;
+    float: right;
+    padding-right: 50px;
+}
+#menu ul #menu-right li {
+    float: right;
+    vertical-align:middle;
+    text-align:middle;
+    font-size: 13px;
+}
+
+#avatar{
+    float: right;
+    vertical-align:middle;
+    width: 33%;
+
+}
+#avatar li a img{
+        border-radius:30%;
+        -moz-border-radius:30%;
+        -webkit-border-radius:30%;
+}
+#tongquan
+{
+    width: 100%;
+    height: 660px;
+    background-image:url("t1-5052.png");
+    background-repeat:no-repeat;
+    background-size: 110%;
+}
+#mtp{
+    width : 30%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+#mtp p{
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 30px;
+    font-style: bold;
+    color:#FFF;
+}
+#mtp h1{
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 50px;
+    font-style: bold;
+    color:rgb(25, 215, 25);
+}
+
+#playlist{
+    float: right;
+    width: 55%;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+#nhacsontung{
+    border: 1px solid rgb(255, 255, 255);
+    height: 450px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#nhacsontung h1{
+    font-family: 'Alexandria',sans-serif ;
+    font-size: 24px;
+    font-style:normal;
+    color:rgb(255, 255, 255);
+}
+#nhacsontung li{
+    list-style-type: none;
+    position:relative;
+    padding: 5px 0px 5px 0px;   
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    transition: .3s linear;
+}
+#nhacsontung span li:hover{
+    background:  rgb(105, 105 , 105, .1 );
+}
+#nhacsontung li span{
+    font-size: 12px  ;
+    font-weight:  600;
+    color: #FFF;
+}
+#nhacsontung li img{
+    width: 50px;    
+    height:50px
+}
+#nhacsontung li  h5{
+    font-size: 14px;
+    font-family: 'Alexandria',sans-serif ;
+    margin-left: 15px;
+    width: 100%;
+  /* border: 1px solid #fff;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#FFF;
+    letter-spacing:1px;
+}
+.btn{
+    font-weight: bold;
+    font-family: 'Alexandria',sans-serif ;
+   font-size: 1em;
+   letter-spacing: 0.1em;
+   text-decoration: none;
+   color: #000000;
+   display: inline-block;
+   padding: 10px 40px 10px 40px;
+   position: relative;
+   border: 3px solid #ffffff;
+   border-radius: 20px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .4);
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #777777;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #mtp h2{
+    color:#000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Alexandria',sans-serif ;
+  }
+  #mtp h3{
+    color:#000;
+    font-weight: bold;
+    font-family: 'Alexandria',sans-serif ;
+    font-size:14px;
+  }
+#tenbaihat{
+    width: 80%;
+    height: 25px;
+}

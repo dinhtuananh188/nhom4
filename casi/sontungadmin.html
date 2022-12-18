@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap');
+        </style>
+    <link rel="stylesheet" href="/casi/sontungadmin.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li><a href="/baitaplon1.html"><img src = "/Spotify-Logo-PNG-2015-–-Now-3.png" height="30px" alt="">Spotify</a></li>
+                <li><a href="/nhom.html">Về chúng tôi</a></li>
+                <div id="menu-right">
+                <div id="avatar">
+                    <li><a href="/casi/sontungadmin.html"><img src="/ảnh/Hay-Trao-Cho-Anh.jpg" width="30px" alt="">&emsp;Sơn Tùng M-TP</a></li>
+                </div>
+                
+
+            </div>
+              </ul>  
+        </div>
+        <div id="tongquan">
+        <div id="mtp">
+            <p>Chào mừng bạn đã quay trở lại với Spotify,</p>
+            <h1>Sơn Tùng M-TP</h1>
+            <br>
+            <button class='btn'>Thêm bài hát</button>
+            <div class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Thêm bài hát</h2>
+                <div id="submit">
+                <h3>Up nhạc</h3>
+                <input type="file" id="myfile" name="myfile" accept=".mp3">
+                <h3>Up thumb nhạc</h3>
+                <input type="file" id="myanh" name="myanh" onchange="return fileValidation()">
+                <div id="imagePreview"></div>
+                <h3>Tên bài hát</h3>
+                <input type="text" id="tenbaihat" name="tenbaihat">
+                <h3>Ngày ra bài hát</h3>
+                <input type="date" id="ngay" required pattern="\d{4}-\d{2}-\d{2}">
+                <br><br>
+                <button v-on:click="gui">Gửi</button>
+                
+                </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div id ="playlist">
+            <div id="nhacsontung">
+                <h1>Những bài hát của Sơn Tùng M-TP</h1>
+                <li>
+                   
+                    <img src="/img/1.jpg" alt="">
+                    <h5>&emsp;Hãy Trao Cho Anh
+                    </h5>
+                </li>
+                <li>
+                   
+                    <img src="/img/cochacyeuladay.jpg" alt="">
+                    <h5>&emsp;Có chắc yêu là đây
+                    </h5>
+                </li>
+                <li>
+                   
+                    <img src="/img/hi.jfif" alt="">
+                    <h5>&emsp;There's No One At All
+                    </h5>
+                </li>
+                <li>
+                  
+                    <img src="/img/lactroi.jpg" alt="">
+                    <h5>&emsp;Lạc Trôi
+                    </h5>
+                </li>
+                <li>
+                    <div id="anhbaimoi"></div>
+                    <h5>&ensp;&nbsp;{{ message123 }}</h5>
+                </li>
+            </div>
+        
+        </div>
+        </div>
+        
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="nhapnhac.js"></script>
+</html>
