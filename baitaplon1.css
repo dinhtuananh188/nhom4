@@ -61,7 +61,7 @@ header .menu_side .playlist h1{
     cursor: pointer;
     display: flex;
     align-items: center;
-    transition: .3s linear;
+    
 }
 header .menu_side .playlist h4:hover{
     color: #fff;
@@ -303,7 +303,7 @@ header .master_play .bar{
  header .master_play .bar .bar2{
    position: absolute;
    background: #36e2ec;
-   width: 50%;
+   width: 0%;
    height: 100%;
    top:0;
    transition: 1s linear ;
